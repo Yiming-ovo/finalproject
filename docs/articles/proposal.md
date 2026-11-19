@@ -1,0 +1,100 @@
+# BST 260 Final Project Proposal
+
+**To:** BST260 Teaching Team, Fall 2026
+
+## Project Overview
+
+This project will explore two public health datasets using R. The goal
+is to apply descriptive statistics, data visualization, and statistical
+methods introduced in BST 260 to investigate patterns in population
+health. The project will consist of two separate analyses, each
+presented as a vignette in the finalproject R package and published
+through a pkgdown website.
+
+## Analysis 1: Age, Sex, and Hypertension in NHANES
+
+### Data Source
+
+The first analysis will use data from the National Health and Nutrition
+Examination Survey (NHANES), available through the NHANES R package.
+NHANES provides information on demographic characteristics, health
+measurements, and other health-related variables.
+
+### Research Questions
+
+1.  How does the prevalence of hypertension vary across age groups?
+2.  Are there differences in hypertension prevalence between males and
+    females?
+3.  How does the relationship between age and hypertension differ by
+    sex?
+
+### Planned Methods
+
+I will first examine the distribution of age, sex, and blood pressure
+measurements using summary statistics and visualizations. I will define
+a binary hypertension indicator using a clearly documented blood
+pressure threshold and examine prevalence across demographic groups.
+
+I will then use logistic regression to investigate associations between
+age, sex, and hypertension. I will also consider an interaction between
+age and sex to explore potential differences in age-related patterns.
+
+### Expected Limitations
+
+NHANES data are observational and cross-sectional, so the analysis
+cannot establish causal relationships. Missing measurements, the
+definition of hypertension, and survey design considerations may also
+affect interpretation.
+
+## Analysis 2: Geographic Variation in Firearm Mortality
+
+### Data Source
+
+The second analysis will use the CDC firearm-related mortality dataset,
+`cdcfiremort`, provided in the BST 260 final project package template.
+
+### Research Questions
+
+1.  How do firearm-related mortality rates vary across U.S. states?
+2.  Which states have relatively high or low firearm mortality rates?
+3.  What geographic patterns can be identified in the available data?
+
+### Planned Methods
+
+I will begin by examining the dataset structure, variable definitions,
+and available geographic and temporal information. I will calculate
+descriptive statistics and create visualizations to compare firearm
+mortality across states.
+
+Where population denominators are available, I will examine mortality
+rates rather than relying only on death counts. Depending on the
+variables available, I may also explore changes over time and use
+statistical models to investigate geographic differences.
+
+### Expected Limitations
+
+This analysis will rely on aggregated observational data. Differences in
+reporting, population characteristics, and other unmeasured factors may
+affect comparisons across states. Geographic associations should not be
+interpreted as causal effects.
+
+## Project Deliverables
+
+The final project will include:
+
+1.  A valid R package named `finalproject`.
+2.  A publicly accessible pkgdown website hosted using GitHub Pages.
+3.  Two analytical vignettes, one for each dataset.
+4.  Reproducible R code, descriptive statistics, and visualizations.
+5.  Documentation of data sources, research objectives, findings, and
+    limitations.
+
+## Planned Workflow
+
+I will first examine the structure and documentation of both datasets.
+Next, I will perform exploratory data analysis and create relevant
+visualizations. I will then conduct appropriate statistical analyses and
+interpret the results.
+
+Finally, I will prepare two reproducible vignettes and publish the
+completed project through the pkgdown website.
