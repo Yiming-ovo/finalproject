@@ -1,20 +1,24 @@
-Package: bst260project
-Title: project code and narrative
+
+Package: finalproject
+Title: BST260 Final Project
 Version: 0.0.3
 Authors@R:
-    person(given = "yourfirstname",
-           family = "lastname",
+    person(given = "Yiming",
+           family = "Zhang",
            role = c("aut", "cre"),
-           email = "youremail@gmail.com",
-           comment = c(ORCID = "0000-0002-1825-0097"))
-Description: provide text on what your project emphasizes and 
-	accomplishes in three or more complete sentences.
+           email = "yiming_zhang@hsph.harvard.edu",
+           comment = NULL)
+Description: This project explores public health datasets using R.
+    It focuses on descriptive statistics, data visualization, and
+    statistical analysis. The goal is to identify meaningful patterns
+    and relationships in population health data.
 Depends: R (>= 4.5.0)
 Suggests: knitr, testthat, rmarkdown, pkgdown
 License: Artistic-2.0
 VignetteBuilder: quarto
 Encoding: UTF-8
-URL: https://github.com/youreponame
-BugReports: https://github.com/youreponame/issues
+URL: https://yiming-ovo.github.io/finalproject/, https://github.com/Yiming-ovo/finalproject
+BugReports: https://github.com/Yiming-ovo/finalproject/issues
 Config/roxygen2/version: 8.1.1
 Roxygen: list(markdown=TRUE)
+
